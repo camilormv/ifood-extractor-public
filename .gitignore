@@ -1,3 +1,25 @@
-# Genérico
+# ─── Python ─────────────────────────────
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+
+# ─── Entornos virtuales ────────────────
+venv/
+.env/
+.venv/
+
+# ─── VS Code / PyCharm ─────────────────
+.vscode/
+.idea/
+
+# ─── Streamlit ─────────────────────────
+.streamlit/secrets.toml      # ← ¡no subir!
+.streamlit/config.toml       # opcional
+
+# ─── Playwright ────────────────────────
+playwright-browsers/
+
+# ─── Salidas y zips ────────────────────
+salida/
+*.zip

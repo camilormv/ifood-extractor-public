@@ -1,0 +1,8 @@
+--no-index
+--find-links ./dist
+ifoodextractor==0.1.0
+
+streamlit>=1.34
+pandas>=2.0
+requests>=2.0
+openpyxl>=3.1

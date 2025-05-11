@@ -16,6 +16,8 @@ venv/
 # ─── Streamlit ─────────────────────────
 .streamlit/secrets.toml      # ← ¡no subir!
 .streamlit/config.toml       # opcional
+.streamlit\secrets.toml
+.streamlit\config.toml
 
 # ─── Playwright ────────────────────────
 playwright-browsers/

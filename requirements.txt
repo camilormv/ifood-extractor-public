@@ -1,5 +1,4 @@
---no-index
---find-links ./dist
+--find-links ./dist          # o bien -f ./dist
 ifoodextractor==0.1.0
 
 streamlit>=1.34

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# postBuild – se ejecuta una sola vez cuando Streamlit construye la imagen
+
+playwright install --with-deps chromium

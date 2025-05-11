@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-python -m playwright install chromium
+# Fuerza a Playwright a guardar los binarios en ./playwright-browsers
+PLAYWRIGHT_BROWSERS_PATH=$PWD/playwright-browsers \
+    python -m playwright install chromium

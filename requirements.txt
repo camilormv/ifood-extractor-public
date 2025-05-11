@@ -1,5 +1,5 @@
 --find-links ./dist          # o bien -f ./dist
-ifoodextractor==0.1.0
+ifoodextractor==0.1.1
 
 streamlit>=1.34
 pandas>=2.0

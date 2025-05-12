@@ -3,12 +3,12 @@
 import os
 from pathlib import Path
 
-# 1) Carpeta dentro del repo donde postBuild dejó los binarios
+# 1) Carpeta binarios
 os.environ["PLAYWRIGHT_BROWSERS_PATH"] = (
     Path(__file__).resolve().parent / "playwright-browsers"   # ← .resolve()
 ).as_posix()
 
-# 2) Ahora sí importamos y lanzamos la app
+# 2) App
 from ifoodextractor.streamlit_entry import main as run
 
 if __name__ == "__main__":

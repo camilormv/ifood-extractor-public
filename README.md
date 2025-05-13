@@ -1,1 +1,1 @@
-# iFood Extractor – loader público
+# Menú Extractor Service – loader público
